@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Connecting</title></head>
+<body style="font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px">
+<p id="m">Returning to YT Factory Studio on this computer…</p>
+<script>
+  // Threads faqat https manzilga qaytaradi: kod shu kompyuterdagi panelga uzatiladi (kod ilova siri bilangina ishlaydi).
+  if (location.search) location.replace("http://localhost:8767/" + location.search);
+  else document.getElementById("m").textContent = "Nothing to do here.";
+</script>
+</body></html>
